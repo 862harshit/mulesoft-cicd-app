@@ -51,6 +51,10 @@ jobs:
       with:
         distribution: 'temurin'
         java-version: '${{ inputs.java }}'
+    - name: Setup Maven
+      uses: stCarolas/setup-maven@v5
+      with:
+        maven-version: 3.9.6
     # Run tests with Maven, passing environment-specific parameters (Application Env and Key)
     - name: "Test with Maven"
       env:
