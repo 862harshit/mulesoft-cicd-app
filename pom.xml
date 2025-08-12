@@ -3,13 +3,8 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>ce235d46-115c-497c-b0e2-474afd80f5e9</groupId>
-<<<<<<< HEAD
 	<artifactId>cicd-api-harsh</artifactId>
-	<version>1.0.1</version>
-=======
-	<artifactId>CICD-api-harsh</artifactId>
-	<version>1.0.2</version>
->>>>>>> 20c64cc78d9b227380a1c24689483ef1cd0d8a4f
+	<version>1.0.3</version>
 	<packaging>mule-application</packaging>
 
 	<name>cicd-api-harsh</name>
